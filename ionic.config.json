@@ -1,0 +1,7 @@
+{
+  "name": "future-made",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

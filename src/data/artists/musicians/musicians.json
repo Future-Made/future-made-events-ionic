@@ -1,0 +1,96 @@
+{
+    "artist_meta": {
+      "type": "musician",
+      "id": "0",
+      "attributes": { },
+      "relationships": {
+        "bands": 
+            [
+                { "name" : "Altin Gun", "id" : 0 }
+            ]
+        
+      }
+    },
+    "cooperation_meta": [
+      { 
+        "type": "band", 
+        "id": "0", 
+        "attributes": { },
+        "links": { "self" : "/bands/0" },
+        "relationships": {
+          "events" : {
+            "links" : {
+              "self": "/bands/56/relationships/events", 
+              "related": "/bands/56/events"
+            },
+            "data" : [
+              { "type" : "event", "id" : "795deef3" },
+              { "type" : "event", "id" : "ea812501" },
+            ]
+          }
+        }
+      }, 
+      { 
+        "type": "collective", 
+        "id": "78", 
+        "attributes": { },
+        "links": { "self" : "/collectives/78" },
+        "relationships": {
+          "events" : {
+            "links" : {
+              "self": "/collectives/78/relationships/events", 
+              "related": "/bands/0/events"
+            },
+            "data" : [
+              { "type" : "event", "id" : "18def8ab" },
+              { "type" : "event", "id" : "08569598" },
+              { "type" : "artist_in_residence", "id" : "08569985"}
+            ]
+          }
+        }
+      },
+
+      { 
+        "type": "ngo", 
+        "id": "50", 
+        "attributes": { },
+        "links": { "self" : "/ngos/50" },
+        "relationships": {
+          "events" : {
+            "links" : {
+              "self": "/ngos/50/relationships/events", 
+              "related": "/ngos/50/events"
+            },
+            "data" : [
+              { "type" : "event", "id" : "18def8ab" },
+              { "type" : "incentive", "id": "18loi8a"},
+              { "type" : "event", "id" : "08562908" }
+            ]
+          }
+        }
+      }
+    ],
+
+    "recent_events_meta" : [
+        { 
+            "type": "event",
+            "id" : "795deef3",
+            "attributes" : { "date" : "2015-11-08T19:30:00", "venue" : "Moe's Jazz Bar" }
+          },
+          { 
+            "type": "event",
+            "id" : "ea812501",
+            "attributes" : { "date" : "2015-11-21T19:30:00", "venue" : "The Blues Cafe" }
+          },
+          { 
+            "type": "event",
+            "id" : "18def8ab",
+            "attributes" : { "date" : "2015-11-18T19:30:00", "venue" : "Rockin' Rick's Rock'n'Roll Roadhouse" }
+          },
+          { 
+            "type": "event",
+            "id" : "08569598",
+            "attributes" : { "date" : "2015-11-21T19:30:00", "venue" : "The Porterhouse" }
+          }
+    ]
+  }
